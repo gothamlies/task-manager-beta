@@ -154,15 +154,15 @@ function TaskManager() {
                         {tasks.map(task => (
                             <div
                                 key={task.id}
-                                className={`flex items-center justify-between p-4 mb-2 task-card ${
+                                className={`flex flex-col p-4 mb-2 task-card ${
                                     task.completed ? 'completed-task' : ''
                                 }`}
                             >
-                                <div>
+                                <div className="task-content">
                                     <p className="font-semibold">{task.title}</p>
                                     <p className="text-gray-500">Время напоминания: {new Date(task.reminderTime).toLocaleString()}</p>
                                 </div>
-                                <div className="flex space-x-2">
+                                <div className="flex space-x-2 mt-2">
                                     {!task.completed && (
                                         <button
                                             onClick={() => toggleComplete(task.id)}
@@ -182,7 +182,7 @@ function TaskManager() {
                                     </button>
                                     <button
                                         onClick={() => deleteTask(task.id)}
-                                        className="px-2 py-1 bg-red-500 text-white rounded-md button"
+                                        className="px-2 py-1 bg-red-500 text-white rounded-md button delete-button"
                                     >
                                         Удалить
                                     </button>
