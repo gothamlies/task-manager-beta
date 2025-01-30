@@ -1,8 +1,14 @@
 # task-manager-beta
-Beta version of the task manager, for your own use in various work
+Beta version of the task manager, for use in various jobs.
 
 In the latest version:
 1. Added animations
-2. Added the ability to complete tasks
+2. Added abilities and tasks.
 
-   ![image](https://github.com/user-attachments/assets/bb9e70c8-a06d-41d6-8a1e-09b65b6f5d5d)
+Latest update:
+1. Added a new line when writing long text
+2. Move the text down button for easy use and reading of the material
+
+![image](https://github.com/user-attachments/assets/cdfa24f4-1799-4f01-97d0-097843521f17)
+
+This application is made exclusively using DeepSeek AI
